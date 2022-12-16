@@ -1,0 +1,25 @@
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem 0;
+    border: 1px solid var(--primary-color);
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.listContainer {
+    display: flex;
+    flex-grow: 1;
+    padding: 0.5rem 0;
+}
+
+.block {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    color: var(--primary-color);
+}

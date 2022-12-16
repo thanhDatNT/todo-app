@@ -1,0 +1,11 @@
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-left: none;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
