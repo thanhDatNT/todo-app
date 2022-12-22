@@ -1,14 +1,10 @@
 export interface ITodo {
     id: number;
     title: string;
-    content: string;
-    createdAt: Date;
-    updatedAt:Date;
+    content: string[];
+    createdAt: string;
+    updatedAt:string;
     isDone: boolean;
-    tag:Tag;
-    imageUrl:string;
-}
-
-export enum Tag {
-    RED, YELLOW, GREEN, BLUE, PURPLE
+    tag: "RED" | "CHOCOLATE"|"GREEN"|"DARKCYAN"|"PURPLE";
+    imageUrl:string[];
 }
